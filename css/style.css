@@ -9,9 +9,28 @@ h2 {
     text-align: center;
     font-family: 'Pacifico', cursive;
     font-size: 18px;
-    padding: 5px 66.0938px 30px;
+    /* padding: 5px 66.0938px 30px; */
     color: rgb(255, 255, 255, 0.6);
+    display: block;
+    padding-top: 5px;
+    padding-bottom: 30px;
+    border-top: none;
+    color: rgba(255,255,255,0.6);
+    font-size: 1.6em;
+    font-style: italic;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
 }
+
+h1, h2 {
+    padding: 0 10%;
+    margin: 0;
+    color: #fff;
+    font-weight: normal;
+}
+
 
 h1 {
         text-align: center;
@@ -19,13 +38,28 @@ h1 {
         font-family: 'libre Baskerville', serif;
         padding: 0px 66.0938px 5px;
         font-size: 28px;
+        text-transform: uppercase;
+        padding-top: 0;
+        padding-bottom: 5px;
+        border-bottom: none;
+        font-family: 'Julius Sans One', sans-serif;
+        font-size: 3.2em;
 }
 
 header {
     background-image: url(../img/huntington.png);
+    background-attachment: fixed, fixed, fixed, scroll;
+    background-repeat: repeat, repeat, repeat, no-repeat;
+    background-size: auto, auto, auto, cover;
     padding: 10px;
     background-size: 100%;
     background-position: left;
+    text-align: center;
+    border-top: solid 10px rgba(19, 67, 71, 0.9);
+    height: 230px;
+    padding: 20px 0 70px 0;
+    background-position: 0 0, 0 0, -5px -25px, 0 50%;
+    display: block;
 }
 
 p {
@@ -84,12 +118,11 @@ div.participation, div.benefits {
     background-repeat: repeat, repeat, repeat, no-repeat;
     background-size: auto, auto, auto, cover;
     box-sizing: border-box;
-    padding: 1em 12%;
-    margin: 0;
+    padding: 1em;
 }
 
 div {
-    display: block;
+    background: padding-box;
 }
 
 body {
@@ -129,7 +162,7 @@ p {
     -moz-box-sizing: border-box;
     box-sizing: border-box;
 }
-user agent stylesheet
+
 p {
     display: block;
     margin-block-start: 1em;
@@ -138,6 +171,28 @@ p {
     margin-inline-end: 0px;
 }
 
-.requirements {
+.requirements, .explanation {
     background-color: white
 }
+
+.summary, a {
+    padding-top: 2em;
+
+}
+
+.summary, .preamble {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.summary, a{
+    text-decoration: none;
+    color: black;
+}
+
+div.preamble body {
+        color: #325050;
+        background: #fff;
+        font-family: 'Libre Baskerville', sans-serif;
+        font-size: 70%;
+    }
