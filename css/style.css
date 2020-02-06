@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Mono');
+@import url('https://fonts.googleapis.com/css?family=Satisfy');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300');
+@import url('https://fonts.googleapis.com/css?family=Julius+Sans+One&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Pacifico&display=swap');
+
+h2 {
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+    font-size: 18px;
+    padding: 5px 66.0938px 30px;
+    color: rgb(255, 255, 255, 0.6);
+}
+
+h1 {
+        text-align: center;
+        color: #ffffff;
+        font-family: 'libre Baskerville', serif;
+        padding: 0px 66.0938px 5px;
+        font-size: 28px;
+}
+
+header {
+    background-image: url(../img/huntington.png);
+    padding: 10px;
+    background-size: 100%;
+    background-position: left;
+}
+
+p {
+    font-family: 'libre Baskerville', serif;
+}
+
+h3{
+font-family: 'Julius Sans One', sans-serif;
+font-size: 20.16px;
+}
+
+div {
+    background-image: url(../img/bamboo.png);
+}
+
+/* .participation,
+.benefits {
+background-attachment: scroll, scroll, fixed;
+background-color: rgba(138,188,159,0.5);
+background-image: url(../img/bamboo.png);
+background-repeat: repeat, repeat, no-repeat;
+background-size: auto, auto, cover;
+padding: 1em;
+margin-top: 0em;
+} */
+
+
+.requirements,
+p:last-child {
+    padding-bottom: 2em;
+    padding-top: 2em;
+}
+
+.requirements p:last-child {
+    width: auto;
+    padding: 1em 12%;
+    margin: 0;
+    color: rgba(255, 255, 255, 0.4);
+    background: #325050;
+    background-attachment: fixed, fixed, fixed, scroll;
+    background-image: url(../img/koi.jpg);
+    background-position: 0 0, -5px -25px, 0 0, 0 50%;
+    background-repeat: repeat, repeat, repeat, no-repeat;
+    background-size: auto, auto, auto, cover;
+    font-size: 2em;
+    font-style: italic;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+div.participation, div.benefits {
+    width: auto;
+    background-attachment: fixed, fixed, fixed, scroll;
+    background-color: rgba(138,188,159,0.5);
+    background-image: url(../img/bamboo.png);
+    background-repeat: repeat, repeat, repeat, no-repeat;
+    background-size: auto, auto, auto, cover;
+    box-sizing: border-box;
+    padding: 1em 12%;
+    margin: 0;
+}
+
+div {
+    display: block;
+}
+
+body {
+    color: #325050;
+    background: #fff;
+    font-family: 'Libre Baskerville', sans-serif;
+    font-size: 70%;
+}
+
+
+.supporting .requirements {
+    float: none;
+    clear: both;
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.requirements p:nth-child(5) {
+    padding-bottom: 2em;
+}
+.supporting h3, .supporting p {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p, li {
+    font-size: 1.2em;
+}
+p {
+    margin: 0.75em 0;
+    line-height: 2;
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+user agent stylesheet
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.requirements {
+    background-color: white
+}
