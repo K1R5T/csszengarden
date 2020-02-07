@@ -64,6 +64,7 @@ header {
 
 p {
     font-family: 'libre Baskerville', serif;
+    line-height: 2;
 }
 
 h3{
@@ -95,9 +96,9 @@ p:last-child {
 
 .requirements p:last-child {
     width: auto;
-    padding: 1em 12%;
+    padding: 2em 15%;
     margin: 0;
-    color: rgba(255, 255, 255, 0.4);
+    color: rgba(255, 255, 255, 0.7);
     background: #325050;
     background-attachment: fixed, fixed, fixed, scroll;
     background-image: url(../img/koi.jpg);
@@ -187,7 +188,7 @@ p {
 
 .summary, a{
     text-decoration: none;
-    color: black;
+    color: rgb(2, 7, 255);
 }
 
 div.preamble body {
@@ -196,3 +197,105 @@ div.preamble body {
         font-family: 'Libre Baskerville', sans-serif;
         font-size: 70%;
     }
+
+    footer {
+        padding: 2em 0;
+        clear: both;
+        color: #fff;
+        background: #134347;
+        text-align: center;
+        display: block;
+    }
+
+    .requirements {
+        padding: 0px;
+    }
+
+    [role=contentinfo]{
+        font-family: cursive;
+    }
+    .design-selection li:nth-child(2n+1), .zen-resources li:nth-child(2n+1) {
+        clear: left;
+    }
+
+    .design-selection li, .zen-resources li {
+        float: left;
+        width: 50%;
+        padding: 1.5em 10%;
+        border-top: solid 1px #d9e3dc;
+        color: #c0cac3;
+        font-style: italic;
+    }
+
+    li {
+        display: list-item;
+        text-align: -webkit-match-parent;
+    }
+
+    .sidebar ul {
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        overflow: hidden;
+    }
+    
+    .zen-resources li {
+        border-top: solid 1px #a0b9ad;
+        font-style: normal;
+    }
+
+div {
+    padding: 0%;
+    }
+
+    .fa-html5:before {
+        content: "\f13b";
+        font-size: 40px;
+    }
+    
+    .fa-css3:before {
+        content: "\f13c";
+        font-size: 40px;
+    }
+    .fa-creative-commons:before {
+        content: "\f25e";
+        font-size: 40px;
+    }
+    .fa-accessible-icon:before {
+        content: "\f368";
+        font-size: 40px;
+    }
+    .fa-github:before {
+        content: "\f09b";
+        font-size: 40px;
+    }
+
+    div.design-selection {
+        background-color: rgb(125, 156, 125);
+    }
+
+    div.wrapper {
+        background-color: rgb(125, 156, 125);
+    }
+
+    .zen-resources {
+            border-top: solid 1px #a0b9ad;
+            font-style: normal;
+    }
+
+    /* footer .fa::before {
+        display: block;
+        position: absolute;
+        top: 3px;
+        left: 0;
+        overflow: visible;
+        font-size: 36px;
+        text-indent: 0;
+        font-family: 'verdemoderna';
+        speak: none;
+        font-weight: normal;
+        font-variant: normal;
+        text-transform: none;
+        line-height: 1;
+        -webkit-font-smoothing: antialiased;
+    } */
