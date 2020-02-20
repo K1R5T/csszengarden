@@ -189,7 +189,7 @@ p {
 
 .summary, a{
     text-decoration: none;
-    color: rgb(255, 2, 2);
+    color: rgb(5, 5, 5);
 }
 
 div.preamble body {
@@ -223,14 +223,12 @@ div.preamble body {
         float: left;
         width: 50%;
         padding: 1.5em 10%;
-        border-top: solid 1px #d9e3dc;
         color: #c0cac3;
         font-style: italic;
     }
 
     li {
         display: list-item;
-        text-align: -webkit-match-parent;
     }
 
     .sidebar ul {
@@ -241,7 +239,6 @@ div.preamble body {
     }
     
     .zen-resources li {
-        border-top: solid 1px #a0b9ad;
         font-style: normal;
     }
 
@@ -265,9 +262,8 @@ div {
     footer a{
         margin-left: 25px;
         font-size: 30px;
-        color: red;
+        color: rgb(205, 202, 211);
         text-decoration: none;
     }
-    
 
    
